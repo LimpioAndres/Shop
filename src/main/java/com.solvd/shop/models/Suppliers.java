@@ -8,6 +8,13 @@ public class Suppliers {
     private String phone_suppliers;
     private String contact_suppliers;
 
+    public Suppliers(String company_name_suppliers, String email_suppliers, String phone_suppliers, String contact_suppliers) {
+        this.company_name_suppliers = company_name_suppliers;
+        this.email_suppliers = email_suppliers;
+        this.phone_suppliers = phone_suppliers;
+        this.contact_suppliers = contact_suppliers;
+    }
+
     public Long getIdSuppliers() {
         return idSuppliers;
     }
@@ -46,5 +53,16 @@ public class Suppliers {
 
     public void setContact_suppliers(String contact_suppliers) {
         this.contact_suppliers = contact_suppliers;
+    }
+
+    @Override
+    public String toString() {
+        return "Suppliers{" +
+                "idSuppliers=" + idSuppliers +
+                ", company_name_suppliers='" + company_name_suppliers + '\'' +
+                ", email_suppliers='" + email_suppliers + '\'' +
+                ", phone_suppliers='" + phone_suppliers + '\'' +
+                ", contact_suppliers='" + contact_suppliers + '\'' +
+                '}';
     }
 }

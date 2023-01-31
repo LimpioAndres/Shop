@@ -6,6 +6,14 @@ public class Offices {
     private String name_offices;
     private String department;
 
+    private String manager;
+
+    public Offices(String name_offices, String department, String manager) {
+        this.name_offices = name_offices;
+        this.department = department;
+        this.manager = manager;
+    }
+
     public Long getIdOffices() {
         return idOffices;
     }
@@ -28,5 +36,22 @@ public class Offices {
 
     public void setDepartment(String department) {
         this.department = department;
+    }
+
+    public String getManager() {
+        return manager;
+    }
+
+    public void setManager(String manager) {
+        this.manager = manager;
+    }
+
+    @Override
+    public String toString() {
+        return "Offices{" +
+                "idOffices=" + idOffices +
+                ", name_offices='" + name_offices + '\'' +
+                ", department='" + department + '\'' +
+                '}';
     }
 }

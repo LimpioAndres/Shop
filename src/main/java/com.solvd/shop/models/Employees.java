@@ -11,6 +11,16 @@ public class Employees {
     private Double salary_employees;
     private Long idOffices;
 
+    public Employees(String name_employees, String last_name_employees, Integer age_employees, String phone_employees, String email_employees, Double salary_employees, Long idOffices) {
+        this.name_employees = name_employees;
+        this.last_name_employees = last_name_employees;
+        this.age_employees = age_employees;
+        this.phone_employees = phone_employees;
+        this.email_employees = email_employees;
+        this.salary_employees = salary_employees;
+        this.idOffices = idOffices;
+    }
+
     public Long getIdEmployees() {
         return idEmployees;
     }
@@ -73,5 +83,19 @@ public class Employees {
 
     public void setIdOffices(Long idOffices) {
         this.idOffices = idOffices;
+    }
+
+    @Override
+    public String toString() {
+        return "Employees{" +
+                "idEmployees=" + idEmployees +
+                ", name_employees='" + name_employees + '\'' +
+                ", last_name_employees='" + last_name_employees + '\'' +
+                ", age_employees=" + age_employees +
+                ", phone_employees='" + phone_employees + '\'' +
+                ", email_employees='" + email_employees + '\'' +
+                ", salary_employees=" + salary_employees +
+                ", idOffices=" + idOffices +
+                '}';
     }
 }

@@ -11,6 +11,14 @@ public class Clients{
     private String phone_clients;
     private String email_clients;
 
+    public Clients(String name_clients, String last_name_clients, Integer age_clients, String phone_clients, String email_clients) {
+        this.name_clients = name_clients;
+        this.last_name_clients = last_name_clients;
+        this.age_clients = age_clients;
+        this.phone_clients = phone_clients;
+        this.email_clients = email_clients;
+    }
+
     public Long getIdClients() {
         return idClients;
     }
@@ -57,5 +65,17 @@ public class Clients{
 
     public void setEmail_clients(String email_clients) {
         this.email_clients = email_clients;
+    }
+
+    @Override
+    public String toString() {
+        return "Clients{" +
+                "idClients=" + idClients +
+                ", name_clients='" + name_clients + '\'' +
+                ", last_name_clients='" + last_name_clients + '\'' +
+                ", age_clients=" + age_clients +
+                ", phone_clients='" + phone_clients + '\'' +
+                ", email_clients='" + email_clients + '\'' +
+                '}';
     }
 }

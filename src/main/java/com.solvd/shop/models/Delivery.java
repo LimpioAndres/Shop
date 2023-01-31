@@ -1,8 +1,13 @@
 package com.solvd.shop.models;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Delivery {
+
+    public Delivery(String id_tracker_delivery, Date date_registered) {
+        this.id_tracker_delivery = id_tracker_delivery;
+        this.date_registered = date_registered;
+    }
 
     private Long idDelivery;
     private String id_tracker_delivery;
@@ -30,5 +35,14 @@ public class Delivery {
 
     public void setDate_registered(Date date_registered) {
         this.date_registered = date_registered;
+    }
+
+    @Override
+    public String toString() {
+        return "Delivery{" +
+                "idDelivery=" + idDelivery +
+                ", id_tracker_delivery='" + id_tracker_delivery + '\'' +
+                ", date_registered=" + date_registered +
+                '}';
     }
 }

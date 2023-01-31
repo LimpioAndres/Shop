@@ -6,6 +6,11 @@ public class Detail_orders {
     private Long idOrders;
     private Long idProducts;
 
+    public Detail_orders(Long idOrders, Long idProducts) {
+        this.idOrders = idOrders;
+        this.idProducts = idProducts;
+    }
+
     public Long getIdDetail_orders() {
         return idDetail_orders;
     }
@@ -28,5 +33,14 @@ public class Detail_orders {
 
     public void setIdProducts(Long idProducts) {
         this.idProducts = idProducts;
+    }
+
+    @Override
+    public String toString() {
+        return "Detail_orders{" +
+                "idDetail_orders=" + idDetail_orders +
+                ", idOrders=" + idOrders +
+                ", idProducts=" + idProducts +
+                '}';
     }
 }

@@ -6,6 +6,11 @@ public class Categories {
     private String name_categories;
     private String description_categories;
 
+    public Categories(String name_categories, String description_categories) {
+        this.name_categories = name_categories;
+        this.description_categories = description_categories;
+    }
+
     public Long getIdCategories() {
         return idCategories;
     }
@@ -28,5 +33,14 @@ public class Categories {
 
     public void setDescription_categories(String description_categories) {
         this.description_categories = description_categories;
+    }
+
+    @Override
+    public String toString() {
+        return "Categories{" +
+                "idCategories=" + idCategories +
+                ", name_categories='" + name_categories + '\'' +
+                ", description_categories='" + description_categories + '\'' +
+                '}';
     }
 }

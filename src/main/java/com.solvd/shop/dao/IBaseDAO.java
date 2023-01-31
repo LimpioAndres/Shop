@@ -1,14 +1,16 @@
 package com.solvd.shop.dao;
 
+import com.solvd.shop.dao.mysql.ExceptionDAO;
+
 import java.util.List;
 
 public interface IBaseDAO <T,K>{
 
-    void create (T a);
-    void update (T a);
-    void remove (T a);
-    List<T> selectAll();
-    T select(K id);
+    void create (T a) throws ExceptionDAO;
+    void update (T a) throws ExceptionDAO;
+    void remove (T a) throws ExceptionDAO;
+    List<T> selectAll() throws ExceptionDAO;
+    T select(K id) throws ExceptionDAO;
 
     /*public interface IBaseDAO <T>{
         T getEntityById(long id);

@@ -1,12 +1,17 @@
 package com.solvd.shop.models;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Inventory {
 
     private Long idInvetory;
     private Double stock_inventory;
     private Date date_adquisition_inventory;
+
+    public Inventory(Double stock_inventory, Date date_adquisition_inventory) {
+        this.stock_inventory = stock_inventory;
+        this.date_adquisition_inventory = date_adquisition_inventory;
+    }
 
     public Long getIdInvetory() {
         return idInvetory;
@@ -30,5 +35,14 @@ public class Inventory {
 
     public void setDate_adquisition_inventory(Date date_adquisition_inventory) {
         this.date_adquisition_inventory = date_adquisition_inventory;
+    }
+
+    @Override
+    public String toString() {
+        return "Inventory{" +
+                "idInvetory=" + idInvetory +
+                ", stock_inventory=" + stock_inventory +
+                ", date_adquisition_inventory=" + date_adquisition_inventory +
+                '}';
     }
 }

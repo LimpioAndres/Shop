@@ -5,6 +5,10 @@ public class Shippers {
     private Long idShippers;
     private String company_name_shippers;
 
+    public Shippers(String company_name_shippers) {
+        this.company_name_shippers = company_name_shippers;
+    }
+
     public Long getIdShippers() {
         return idShippers;
     }
@@ -19,5 +23,13 @@ public class Shippers {
 
     public void setCompany_name_shippers(String company_name_shippers) {
         this.company_name_shippers = company_name_shippers;
+    }
+
+    @Override
+    public String toString() {
+        return "Shippers{" +
+                "idShippers=" + idShippers +
+                ", company_name_shippers='" + company_name_shippers + '\'' +
+                '}';
     }
 }
