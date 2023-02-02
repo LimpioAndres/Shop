@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shippers idShippers="2961" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../xsd/shippers.xsd">
+    <company_name_shippers>Fedex</company_name_shippers>
+</shippers>

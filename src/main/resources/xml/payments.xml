@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<payments id_payments="209" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../xsd/payments.xsd">
+    <idOrders>6571</idOrders>
+    <amount_payments>105</amount_payments>
+    <date_payments>2023-01-02</date_payments>
+</payments>

@@ -4,14 +4,14 @@ import java.sql.Date;
 
 public class Delivery {
 
+    private Long idDelivery;
+    private String id_tracker_delivery;
+    private Date date_registered;
+
     public Delivery(String id_tracker_delivery, Date date_registered) {
         this.id_tracker_delivery = id_tracker_delivery;
         this.date_registered = date_registered;
     }
-
-    private Long idDelivery;
-    private String id_tracker_delivery;
-    private Date date_registered;
 
     public Long getIdDelivery() {
         return idDelivery;

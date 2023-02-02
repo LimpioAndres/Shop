@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="shippers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="company_name_shippers"/>
+            </xs:sequence>
+            <xs:attribute type="xs:long" name="idShippers"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

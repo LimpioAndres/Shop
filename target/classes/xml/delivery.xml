@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<delivery idDelivery="202026" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:noNamespaceSchemaLocation="../xsd/delivery.xsd">
+    <id_tracker_delivery>TRUTRU2930</id_tracker_delivery>
+    <date_registered>2023-01-29</date_registered>
+</delivery>

@@ -1,17 +1,30 @@
 package com.solvd.shop.models;
 
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement (name = "employees")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Employees {
 
+    @XmlAttribute (name = "idEmployees")
     private Long idEmployees;
+    @XmlElement (name = "name_employees")
     private String name_employees;
+    @XmlElement (name = "last_name_employees")
     private String last_name_employees;
+    @XmlElement (name = "age_employees")
     private Integer age_employees;
+    @XmlElement (name = "phone_employees")
     private String phone_employees;
+    @XmlElement (name = "email_employees")
     private String email_employees;
+    @XmlElement (name = "salary_employees")
     private Double salary_employees;
+    @XmlElement (name = "idOffices")
     private Long idOffices;
 
-    public Employees(String name_employees, String last_name_employees, Integer age_employees, String phone_employees, String email_employees, Double salary_employees, Long idOffices) {
+
+    public Employees( String name_employees, String last_name_employees, Integer age_employees, String phone_employees, String email_employees, Double salary_employees, Long idOffices) {
         this.name_employees = name_employees;
         this.last_name_employees = last_name_employees;
         this.age_employees = age_employees;
@@ -19,6 +32,20 @@ public class Employees {
         this.email_employees = email_employees;
         this.salary_employees = salary_employees;
         this.idOffices = idOffices;
+    }
+
+    public Employees(Long idEmployees, String name_employees, String last_name_employees, Integer age_employees, String phone_employees, String email_employees, Double salary_employees, Long idOffices) {
+        this.idEmployees = idEmployees;
+        this.name_employees = name_employees;
+        this.last_name_employees = last_name_employees;
+        this.age_employees = age_employees;
+        this.phone_employees = phone_employees;
+        this.email_employees = email_employees;
+        this.salary_employees = salary_employees;
+        this.idOffices = idOffices;
+    }
+
+    public Employees() {
     }
 
     public Long getIdEmployees() {

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<delivery_shippers idDelivery="202025" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:noNamespaceSchemaLocation="../xsd/delivery_shippers.xsd">
+    <idShippers>2961</idShippers>
+    <date_creation>2023-01-08</date_creation>
+</delivery_shippers>

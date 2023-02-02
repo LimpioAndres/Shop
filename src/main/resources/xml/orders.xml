@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<orders idOrders="6576" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../xsd/orders.xsd">
+    <amount_orders>30928.2</amount_orders>
+    <date_orders>2023-01-29</date_orders>
+    <idClients>5</idClients>
+    <idEmployees>7</idEmployees>
+    <idDelivery>202026</idDelivery>
+</orders>

@@ -144,9 +144,15 @@ public class ServiceManager implements IServiceDAO {
 
         ServiceManager serviceManager = new ServiceManager("localhost:3306", "root", "admin", "shop");
         List<Clients> clients = serviceManager.getClientsDAO().selectAll();
-        LOGGER.info(clients);
+        for(Clients print : clients){
+            LOGGER.info(print);
+        }
+
+        LOGGER.info("\n");
 
         List<Employees> employees = serviceManager.getEmployeesDAO().selectAll();
-        LOGGER.info(employees);
+        for(Employees printE : employees){
+            LOGGER.info(printE);
+        }
     }
 }

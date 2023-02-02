@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="orders">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:double" name="amount_orders"/>
+                <xs:element type="xs:date" name="date_orders"/>
+                <xs:element type="xs:long" name="idClients"/>
+                <xs:element type="xs:long" name="idEmployees"/>
+                <xs:element type="xs:long" name="idDelivery"/>
+            </xs:sequence>
+            <xs:attribute type="xs:long" name="idOrders"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

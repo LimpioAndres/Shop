@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ordersM idOrders="6577">
+    <amount_orders>5118.5</amount_orders>
+    <date_orders>1969-12-31</date_orders>
+    <clients>
+        <client idClients="9">
+            <name_clients>Abel</name_clients>
+            <last_name_clients>Illieri</last_name_clients>
+            <age_clients>18</age_clients>
+            <phone_clients>8987701147</phone_clients>
+            <email_clients>aillieri.laba@solvd.com</email_clients>
+        </client>
+    </clients>
+    <employees idEmployees="2">
+        <name_employees>Maria</name_employees>
+        <last_name_employees>Maso</last_name_employees>
+        <age_employees>35</age_employees>
+        <phone_employees>4234776890</phone_employees>
+        <email_employees>mmaso.laba@solvd.com</email_employees>
+        <salary_employees>4000.0</salary_employees>
+        <idOffices>18481</idOffices>
+    </employees>
+    <idDelivery>202027</idDelivery>
+</ordersM>
