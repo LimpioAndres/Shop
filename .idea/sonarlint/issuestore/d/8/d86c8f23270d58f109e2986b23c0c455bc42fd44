@@ -1,0 +1,33 @@
+
+f
+java:S1192."KDefine a constant instead of duplicating this literal "SQL Error" 12 times.(Ğ»•Ìşÿÿÿÿ
+X
+java:S11634"=Refactor this code to not throw exceptions in finally blocks.(Ğ»•Ìşÿÿÿÿ
+X
+java:S1163Q"=Refactor this code to not throw exceptions in finally blocks.(Ğ»•Ìşÿÿÿÿ
+X
+java:S1163g"=Refactor this code to not throw exceptions in finally blocks.(Ğ»•Ìşÿÿÿÿ
+O
+java:S11434"4Remove this throw statement from this finally block.(Ğ»•Ìşÿÿÿÿ
+O
+java:S1143Q"4Remove this throw statement from this finally block.(Ğ»•Ìşÿÿÿÿ
+O
+java:S1143g"4Remove this throw statement from this finally block.(Ğ»•Ìşÿÿÿÿ
+Z
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(óòó
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ì¹Óöşÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–Êîƒùÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¡³£ıÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(«…ï¶úÿÿÿÿ
+Y
+java:S3984"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ8èÆø«à0
+Y
+java:S3984–"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ8èÆø«à0
+Y
+java:S3984²"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ8óëù«à0
+Y
+java:S3984¹"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ8óëù«à0

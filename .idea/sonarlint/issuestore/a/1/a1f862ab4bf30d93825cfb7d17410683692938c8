@@ -1,0 +1,40 @@
+
+f
+java:S11922"KDefine a constant instead of duplicating this literal "SQL Error" 13 times.(Ğ»•Ìşÿÿÿÿ
+;
+java:S2629Õ"$Invoke method(s) only conditionally.(Ş¬ëƒ
+X
+java:S1163?"=Refactor this code to not throw exceptions in finally blocks.(Ğ»•Ìşÿÿÿÿ
+X
+java:S1163Z"=Refactor this code to not throw exceptions in finally blocks.(Ğ»•Ìşÿÿÿÿ
+X
+java:S1163p"=Refactor this code to not throw exceptions in finally blocks.(Ğ»•Ìşÿÿÿÿ
+O
+java:S1143?"4Remove this throw statement from this finally block.(Ğ»•Ìşÿÿÿÿ
+O
+java:S1143Z"4Remove this throw statement from this finally block.(Ğ»•Ìşÿÿÿÿ
+O
+java:S1143p"4Remove this throw statement from this finally block.(Ğ»•Ìşÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÿÎÇçÿÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ù°¾Ùşÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÍÊúŞıÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Çı¡ûÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÛÚ›‚ıÿÿÿÿ
+Q
+java:S39848"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ
+R
+java:S3984–"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ
+R
+java:S3984"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ
+R
+java:S3984º"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ
+R
+java:S3984Á"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ
+M
+java:S6437Ë"6Revoke and change this password, as it is compromised.(ñŸêœ
+W	java:S125Ï"<This block of commented-out lines of code should be removed.(ìé¨çùÿÿÿÿ

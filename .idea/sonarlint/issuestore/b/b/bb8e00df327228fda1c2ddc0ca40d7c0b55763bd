@@ -1,0 +1,37 @@
+
+f
+java:S1192'"KDefine a constant instead of duplicating this literal "SQL Error" 12 times.(Ğ»•Ìşÿÿÿÿ
+f	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ƒûó
+f	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Èóš
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Úá‡øÿÿÿÿ
+g	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ë¼‡‰üÿÿÿÿ
+X
+java:S1163-"=Refactor this code to not throw exceptions in finally blocks.(Ğ»•Ìşÿÿÿÿ
+X
+java:S1163E"=Refactor this code to not throw exceptions in finally blocks.(Ğ»•Ìşÿÿÿÿ
+X
+java:S1163["=Refactor this code to not throw exceptions in finally blocks.(Ğ»•Ìşÿÿÿÿ
+O
+java:S1143-"4Remove this throw statement from this finally block.(Ğ»•Ìşÿÿÿÿ
+O
+java:S1143E"4Remove this throw statement from this finally block.(Ğ»•Ìşÿÿÿÿ
+O
+java:S1143["4Remove this throw statement from this finally block.(Ğ»•Ìşÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ü•Å‘ıÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ş±´
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(³º º
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.( ²Ä
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÓŸ˜‚üÿÿÿÿ
+Q
+java:S3984~"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ
+R
+java:S3984…"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ
+R
+java:S3984¡"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ
+R
+java:S3984¨"6Throw this exception or remove this useless statement.(Ô¥Òƒúÿÿÿÿ

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ordersM idOrders="6577">
     <amount_orders>5118.5</amount_orders>
-    <date_orders>1969-12-31</date_orders>
+    <date_orders>2023-12-31</date_orders>
     <clients>
         <client idClients="9">
             <name_clients>Abel</name_clients>

@@ -1,21 +1,34 @@
 package com.solvd.shop.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import javax.xml.bind.annotation.*;
 
 @XmlRootElement (name ="client")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Clients{
 
+    @JsonProperty("idClients")
     @XmlAttribute (name = "idClients")
     private Long idClients;
+
+    @JsonProperty ("name_clients")
     @XmlElement (name = "name_clients")
     private String name_clients;
+
+    @JsonProperty ("last_name_clients")
     @XmlElement (name = "last_name_clients")
     private String last_name_clients;
+
+    @JsonProperty ("age_clients")
     @XmlElement (name = "age_clients")
     private Integer age_clients;
+
+    @JsonProperty ("phone_clients")
     @XmlElement (name = "phone_clients")
     private String phone_clients;
+
+    @JsonProperty ("email_clients")
     @XmlElement (name = "email_clients")
     private String email_clients;
 

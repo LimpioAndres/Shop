@@ -1,0 +1,35 @@
+{
+  "Offices":{
+    "idOffices": 18483,
+    "name_offices": "Guadalajara",
+    "department": "sellers",
+    "manager": "Rocio Mendoza"
+  },
+  "Products": {
+    "idProducts": 987506,
+    "name_products": "Chains 45cm",
+    "stock_inventory": "560",
+    "price_sell_products": "0.8",
+    "price_buy_product": "0.3",
+    "idSuppliers": 302764,
+    "idCategories": 1,
+    "idInventory":3402
+  },
+  "Suppliers": {
+    "idSuppliers": 302765,
+    "company_name_suppliers": "Chains fantasies",
+    "email_suppliers": "sales@chainsfantaies.com",
+    "phone_suppliers": "6676324110",
+    "contact_suppliers": "Carlos Villa"
+  },
+  "Inventory": {
+    "idInventory": 3402,
+    "stock_inventory": 560,
+    "date_adquisition_inventory": "2023-01-23"
+  },
+  "Detail_orders": {
+    "idDetail_orders":2,
+    "idOrders": 6571,
+    "idProducts": 987504
+  }
+}

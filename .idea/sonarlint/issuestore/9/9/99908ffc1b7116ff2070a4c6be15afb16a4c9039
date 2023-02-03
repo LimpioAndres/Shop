@@ -1,0 +1,12 @@
+
+Y
+java:S2184"CCast one of the operands of this subtraction operation to a "long".(››Ë
+W
+java:S1854!"ARemove this useless assignment to local variable "ordersParsers".(õŒ¼
+P
+java:S18542":Remove this useless assignment to local variable "orders".(•ÆºÃ
+H
+java:S1481!"2Remove this unused "ordersParsers" local variable.(õŒ¼
+V	java:S125$"<This block of commented-out lines of code should be removed.(¡»¢üùÿÿÿÿ
+A
+java:S14812"+Remove this unused "orders" local variable.(•ÆºÃ

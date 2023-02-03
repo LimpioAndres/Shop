@@ -1,0 +1,24 @@
+{
+  "date_orders":"2023-12-31",
+  "idOrders":6577,
+  "amount_orders":5118.5,
+  "client": [
+    {
+      "idClients":9,
+      "name_clients":"Abel",
+      "last_name_clients":"Illieri",
+      "age_clients":18,
+      "phone_clients":"8987701147",
+      "email_clients":"aillieri.laba@solvd.com"
+    }
+  ],
+  "employees":{"idEmployees":2,
+    "name_employees":"Maria",
+    "last_name_employees":"Maso",
+    "age_employees":35,
+    "phone_employees":"4234776890",
+    "email_employees":"mmaso.laba@solvd.com",
+    "salary_employees":4000.0,
+    "idOffices":18481
+  },
+  "idDelivery":202027}
