@@ -22,7 +22,6 @@ public class OrdersParsers {
     @JsonProperty ("amount_orders")
     @XmlElement (name = "amount_orders")
     private Double amount_orders;
-
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     @XmlElement(name = "date_orders", required = true)
     @XmlJavaTypeAdapter(DateAdapter.class)

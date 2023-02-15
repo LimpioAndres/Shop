@@ -5,6 +5,9 @@
     <select id="selectAll" resultMap="clientsResultMap">
         SELECT * FROM clients
     </select>
+    <delete id = "remove">
+        DELETE FROM clients WHERE idClients =${idClients}
+    </delete>
     <resultMap id="clientsResultMap" type="com.solvd.shop.models.Clients"
                autoMapping="false">
         <id column="idClients" property="idClients"/>

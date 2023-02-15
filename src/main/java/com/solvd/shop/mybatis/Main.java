@@ -14,7 +14,13 @@ public class Main {
 
         ClientsService clientsService = new ClientsService();
         List<Clients> clients = clientsService.selectAll();
-        LOGGER.info("Clients founded: \n" + clients);
+
+        for(Clients print : clients){
+            LOGGER.info(print);
+        }
+
+        LOGGER.info("\n");
+
 
     }
 }
